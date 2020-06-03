@@ -1,5 +1,5 @@
 Пример работы с базой данных с использованием SpringBoot JDBC 
-
+----------------------------------------------------------
 Скачать проект, открыть в intellij idea.
 
 При запуске метода Main класса JdbcApplication, выполнятся разные методы SingerService, 
@@ -20,16 +20,25 @@
 Закомментировать настройки для H2 базы и раскомментировать для базы MySQL.
 
 #H2 properties
+----------------------------------------------------------
 spring.datasource.url=jdbc:h2:mem:testdb
+
 spring.datasource.driverClassName=org.h2.Driver
+
 spring.datasource.username=sa
+
 spring.datasource.password=
+
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
 #mysql properties
+----------------------------------------------------------
 #spring.datasource.url=jdbc:mysql://localhost:3306/musicdb?useUnicode=true&serverTimezone=UTC
+
 #spring.datasource.username=user
+
 #spring.datasource.password=password
+
 #spring.datasource.platform=mysql
 
 
